@@ -16,3 +16,9 @@ LDFLAGS=""
 LIBS="-lm"
 
 $CC $FILES $CFLAGS $LDFLAGS $LIBS -o "$OUTPUT"
+
+
+### How to use:
+#  chmod +x build.sh
+#  ./build.sh your_code.c
+#  ./meow
